@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "pub": "pm2 start npm --name 'my-facebook-backend' -- run 'start' --port 4005",
+    "delete": "pm2 stop my-facebook-backend && pm2 delete my-facebook-backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.28.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.3.1",
+    "googleapis": "^95.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.2.1",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15"
+  }
+}
