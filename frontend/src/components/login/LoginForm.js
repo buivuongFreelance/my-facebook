@@ -9,8 +9,8 @@ import { useDispatch } from "react-redux";
 import Cookies from "js-cookie";
 import { useNavigate } from "react-router-dom";
 const loginInfos = {
-  email: "",
-  password: "",
+  email: "buivuongdhmo@gmail.com",
+  password: "dingtoi@2023",
 };
 export default function LoginForm({ setVisible }) {
   const dispatch = useDispatch();
